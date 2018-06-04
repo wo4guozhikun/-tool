@@ -1,0 +1,12 @@
+<view class="container">
+  <view class='title'>记事本</view>
+  <view class='note-content'>
+      <view wx:for="{{list}}" wx:key="index">
+        <navigator url="./noteDetail?id={{index}}">
+          {{item.title}}
+          <view class='shotText'>{{item.content}}</view>
+        </navigator> 
+      </view>
+  </view>
+  <view class='bottom-btn'><navigator url="./noteDetail">+</navigator></view>
+</view>

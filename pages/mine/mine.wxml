@@ -1,0 +1,13 @@
+<wxs src="./mine.wxs" module="gender" />
+
+<view class="container">
+  <view class='loginBox'>
+    <view wx:if="{{hasLogin}}"><image src='{{userInfo.avatarUrl}}'></image></view>
+    <view wx:else bindtap='login'>您还未登录，点击登录</view>
+  </view>
+  <view wx:if="{{hasLogin}}" class='contentBox'>
+    <view>姓名：{{userInfo.nickName}}</view>
+    <view>姓别：{{gender.gender(userInfo.gender)}}</view>
+    <view>所在地：{{userInfo.country}}{{userInfo.province}}{{userInfo.city}}</view> 
+  </view>
+</view>

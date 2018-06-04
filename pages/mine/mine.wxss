@@ -1,0 +1,17 @@
+/* pages/mine/mine.wxss */
+.loginBox{
+  width: 100%;
+  height: 20vh;
+  margin-top: 10vh;
+  line-height: 20vh;
+  text-align: center;
+}
+.loginBox image{
+  width: 16vh;
+  height: 16vh;
+  border-radius: 8vh;
+  margin-top: 2vh;
+}
+.contentBox view{
+  margin-top: 5vh;
+}

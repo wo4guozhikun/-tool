@@ -1,0 +1,35 @@
+/* pages/calculate/calculate.wxss */
+.title{
+  margin: 3vh 0 2vh;
+}
+.fillValue{
+  border: 1rpx solid #666;
+  height: 2rem;
+  width: 90vw;
+  border-bottom: none;
+}
+.showResult{
+  border: 1rpx solid #666;
+  height: 3rem;
+  width: 90vw;
+  border-top: none;
+  text-align: right;
+  font-size: 2rem;
+}
+.fillBox{
+  border: 1px solid #666;
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  width: 90vw;
+}
+.fillBox-item{
+  width: 20vw;
+  height: 22vw;
+  padding: 1vw;
+  background-color: wheat;
+  margin-bottom: 1vw;
+  text-align: center;
+  line-height: 22vw;
+  font-size: 3rem;
+}

@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="main-search">
+    <input class="main-search-input" placeholder="{{placeholder}}" bindfocus='focus' bindblur='blur'/>
+  </view>
+  <swiper indicator-dots="true"
+    autoplay="true" interval="3000" duration="500">
+    <block wx:for="{{background}}" wx:key="item.className">
+      <swiper-item>
+        <view class="swiper-item {{item.className}}">{{item.text}}</view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='classify'>
+    <view class='line'>
+      <view><navigator url="../note/note"><image src='../../images/icon/订单.png'></image> 记事本</navigator></view>
+      <view><navigator url="../calculate/calculate"><image src='../../images/icon/课程.png'></image> 计算器</navigator></view>
+    </view>
+    <view class='line'>
+      <view bindtap='clear'><image src='../../images/icon/定位.png'></image> 地 <text class='hold'></text> 图</view>
+      <view bindtap='scanCode'><image src='../../images/icon/扫码.png'></image> 扫 <text class='hold'></text> 码</view>
+    </view>
+    <view class='line'>
+      <view><navigator url="../video/video"><image src='../../images/icon/视频.png'></image> 播放器</navigator></view>
+      <view><navigator url="../sports/sports"><image src='../../images/icon/图片.png'></image> 美 <text class='hold'></text> 图</navigator></view>
+    </view>
+    
+  </view>
+</view>

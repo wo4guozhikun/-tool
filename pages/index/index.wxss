@@ -1,0 +1,62 @@
+/**index.wxss**/
+.main-search{
+  width: 100%;
+  height: 8vh;
+  background-color: #eee;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.main-search-input{
+  background-color: #fff;
+  width: 80vw;
+  height: 5vh;
+  border-radius: 2.5vh;
+}
+swiper {
+  width: 100%;
+  text-align: center;
+}
+.demo-text-1{
+  background-color: royalblue;
+  width: 100%;
+  height: 100%;
+  line-height:20vh;
+}
+.demo-text-2{
+  background-color: goldenrod;
+  width: 100%;
+  height: 100%;
+  line-height:20vh;
+}
+.demo-text-3{
+  background-color: indianred;
+  width: 100%;
+  height: 100%;
+  line-height:20vh;
+}
+.classify{
+  width: 100%;
+}
+.classify .line{
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+}
+.classify .line view{
+  width: 49vw;
+  height: 15vh;
+  margin-top: 2vw;
+  background-color: #eee;
+  text-align: center;
+  line-height: 15vh;
+  color:#666;
+}
+.classify .line view image{
+  width: 20px;
+  height: 20px;
+}
+.hold{
+  margin-left: 4vw;
+}

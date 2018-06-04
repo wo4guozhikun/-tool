@@ -1,0 +1,28 @@
+/* pages/note/noteDetail.wxss */
+form{
+  width: 90vw;
+  text-align: center;
+}
+.detail-content{
+  padding: 5vh 0;
+}
+.detail-content .title{
+  text-align: center;
+}
+.detail-content text{
+  display: block;
+  margin: 2vh 0 1vh;
+}
+.detail-content input{
+  height: 2.5rem;
+  border: 1rpx solid #ddd;
+}
+.detail-content textarea{
+  border: 1rpx solid #ddd;
+  width: 90vw;
+  height: 40vh;
+  text-align: left;
+}
+.detail-btn button{
+  margin-top: 25rpx;
+}

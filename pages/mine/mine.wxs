@@ -1,0 +1,5 @@
+var gender = function(val){
+  return val==1?"男":"女"
+}
+
+module.exports.gender = gender

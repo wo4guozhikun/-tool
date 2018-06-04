@@ -1,0 +1,7 @@
+.title{
+  margin: 5vh 0 10vh;
+}
+.searchSrc{
+  width:80vw;
+  margin-top:10vh;
+}
